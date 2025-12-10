@@ -25,6 +25,6 @@ export class OrderItem {
   @Column()
   quantity: number;
 
-  @Column({ nullable: true })
+  @Column({ type: 'text', nullable: true })
   notes: string | null;
 }
